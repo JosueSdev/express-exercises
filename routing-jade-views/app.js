@@ -16,7 +16,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 // Configure express to treat "/about" separately from "/About"
-app.set('case sensitive routing', true);
+app.enable('case sensitive routing');
 
 app.use(logger('dev'));
 app.use(express.json());
