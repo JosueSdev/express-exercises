@@ -1,0 +1,15 @@
+{
+  "name": "middleware-routes2",
+  "version": "0.0.0",
+  "description": "Exercise to practice basic Express concepts.",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "morgan": "^1.10.0"
+  }
+}
