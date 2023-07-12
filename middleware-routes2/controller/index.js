@@ -22,7 +22,7 @@ router.route('/login')
     }
   });
 
-router.get('/menu', function(req, res) {
+router.get(/\/menu|\/dashboard/, function(req, res) {
   if (req.session.loginId) {
     res.sendFile(path.join(process.cwd(), 'view/menu.html'));
   } else {
