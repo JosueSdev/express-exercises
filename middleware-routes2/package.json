@@ -4,7 +4,7 @@
   "description": "Exercise to practice basic Express concepts.",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
     "debug": "^4.3.4",
